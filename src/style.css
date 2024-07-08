@@ -1,0 +1,129 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+button {
+    border-style: none;
+}
+
+/* MEYERS RESET ABOVE */
+
+* {
+    background-color: black;
+    color: white;
+/*     border: 1px solid red; */
+}
+
+:root {
+    --flair-colour: #c22b46;
+}
+
+#content,
+.content {
+    font-size: 1.3rem;
+    color: lightsalmon;
+    text-align: center;
+    width: 80%;
+    margin: 2rem 10% 0rem;
+}
+
+#content .address {
+    color: var(--flair-colour);
+}
+
+
+.address {
+    display: grid;
+    grid-template-columns: repeat(2, 36ch);
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 3rem;
+    gap: 3rem;
+    align-items: center;
+    margin-left: 20rem;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+}
+
+.champion,
+.tag-lines {
+    font-size: 2rem;
+    display: flex;
+    align-items: center; 
+}
+
+#logo {
+    animation: wobble 1.4s infinite;
+}
+
+.champion {
+    justify-content: space-evenly;
+}
+
+.tag-lines {
+    justify-content: center;
+    flex-direction: column;
+}
+
+@keyframes wobble {
+    0% { rotate: 0deg; }
+    13% { rotate: 4deg; }
+    26% { rotate: 8deg; }
+    39% { rotate: 4deg; }
+    52% { rotate: 0deg; }
+    65% { rotate: -4deg; }
+    78% { rotate: -8deg; }
+    91% { rotate: -4deg; }
+    100% { rotate: 0deg; }
+    
+} 
