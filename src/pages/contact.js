@@ -17,14 +17,14 @@ export default function renderContactPage() {
     div2Grid.classList.add("content", "address")
     div3.classList.add("content")
 
-    div1.textContent = `The Sumiredōri Shopping District (すみれ通り商店街 Sumiredōri shōtengai) is one of the recurring locations in the Shokugeki no Soma series. 
-    Located in Sumire Town, Restaurant Yukihira is located here and was founded by Jōichirō Yukihira’s father-in-law some time ago. 
+    div1.textContent = `The Sumiredori Shopping District (すみれ通り商店街 Sumiredori shotengai) is one of the recurring locations in the Shokugeki no Soma series. 
+    Located in Sumire Town, Restaurant Yukihira is located here and was founded by Joichiro Yukihira’s father-in-law some time ago. 
     The location plays a major role in the Karaage Wars Arc.`
 
         div2cell1.textContent = `〒 001-9891`
         div2cell2.textContent = `Restaurant Yukihira`   
         div2cell3.textContent = `すみれ 町`   
-        div2cell4.textContent = `Sumiredōri shōtengai`   
+        div2cell4.textContent = `Sumiredori shotengai`   
         div2cell5.textContent = `すみれ通り商店街`   
         div2cell6.textContent = `Sumire Town`  
         div2cell7.textContent = `食事処 ゆきひら`    

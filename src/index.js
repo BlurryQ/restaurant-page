@@ -11,7 +11,15 @@ function renderNavAndLogo() {
     const LOGO = document.getElementById("logo")
     const logo = new Image()
     logo.src = Logo;
-    logo.style.cssText = `width: 15rem;`
+
+    let windowWidth = window.innerWidth
+    if(windowWidth > 1080) {
+        logo.style.cssText = `width: 16rem;` 
+    } else if (windowWidth > 768 && windowWidth < 1080) {
+        logo.style.cssText = `width: 12rem;` 
+    } else {
+        logo.style.cssText = `width: 8rem;` 
+    }
     logo.setAttribute("id", "logo")
     LOGO.appendChild(logo);
 }
