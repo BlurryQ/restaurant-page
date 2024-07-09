@@ -70,7 +70,7 @@ body {
     font-family: "Food Wars", 'Courier New', Courier, monospace;
 }
 
-a:active {
+a:link {
     color: #d6dce4;
 }
 
