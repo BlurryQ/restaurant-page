@@ -2,6 +2,8 @@
 
 ## Summary
 
+![Yukihira Eatery Screenshot](./src/img/demo.png)
+
 Welcome to the Yukihira Eatery, inspired by the anime [Food Wars](https://shokugekinosoma.fandom.com/wiki/Shokugeki_no_Soma). This project was built to deepen my understanding of modern front-end development practices, including npm workflow, organizing src and dist folders, and applying JavaScript concepts to create an interactive, dynamic user experience.
 
 ## Setup
